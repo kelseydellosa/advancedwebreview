@@ -1,0 +1,33 @@
+*{
+box-sizing: border-box; 
+}
+
+html, body{
+	min-height: 100%; 
+}
+
+h1{
+	color: #da241a; 
+	font-family: monospace; 
+	font-size: 15vw; 
+}
+
+.logo{
+    max-width:30%;
+    height:auto;
+    width: auto;
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0;
+}
+img{
+	width: 90%; 
+}
+
+.grid-parent{
+	display: inline-grid; 
+	grid-template-columns: 300px; 
+	grid-template-rows: 210px 210px 210px 210px; 
+	margin-top: 13%; 
+	margin-left: 10%; 
+}
